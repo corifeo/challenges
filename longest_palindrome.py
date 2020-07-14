@@ -1,3 +1,10 @@
+"""
+Another tricky challenge, probably not the most performant solution
+because it's dirty brute force of all possible combinations and
+regardless of the list comprehension is still very slow with long
+strings
+"""
+
 from itertools import combinations
 
 string = 'levelness radar poop'
