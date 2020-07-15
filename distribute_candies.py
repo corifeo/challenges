@@ -27,7 +27,11 @@ def candy(r):
     return c
 
 test_value1 = [1, 0, 2, 3, 5]
-print(candy(test_value1))    # [2, 1, 2, 3, 4]
+result1 = candy(test_value1)    
+print(result1)  # [2, 1, 2, 3, 4]
+print(sum(result1)) # 12
 
 test_value2 = [1, 2, 2, 1, 4]
-print(candy(test_value2))    # [1, 2, 2, 1, 2]
+result2 = candy(test_value2)
+print(result2)  # [1, 2, 2, 1, 2]
+print(sum(result2)) # 8
